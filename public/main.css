@@ -1,0 +1,11 @@
+:root {
+  --ff-ss: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  font-family: var(--ff-ss);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
