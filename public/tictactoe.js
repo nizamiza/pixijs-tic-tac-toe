@@ -283,6 +283,7 @@ export class TicTacToe {
       this.cells.forEach((cell) => cell.removeChildren());
       this.resetScore();
       this.drawScore();
+      this.isCross = true;
     });
 
     button.position.set(
